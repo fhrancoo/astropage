@@ -15,3 +15,4 @@
 ### Documentation: 
 
 [Cloudflare Workers Astro](https://developers.cloudflare.com/workers/framework-guides/web-apps/astro/)
+[Astro Deploy Cloudflare](https://docs.astro.build/es/guides/deploy/cloudflare/)
