@@ -1,13 +1,15 @@
 {
-	"compatibility_date": "2026-04-17",
-	"compatibility_flags": ["global_fetch_strictly_public"],
-	"name": "astropage",
-	"main": "@astrojs/cloudflare/entrypoints/server",
-	"assets": {
-		"directory": "./dist",
-		"binding": "ASSETS"
-	},
-	"observability": {
-		"enabled": true
-	}
+  "name": "astropage",
+  "main": "./dist/_worker.js/index.js",
+  // Update to today's date
+  // Set this to today's date
+  "compatibility_date": "2026-04-17",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./dist"
+  },
+  "observability": {
+    "enabled": true
+  }
 }
